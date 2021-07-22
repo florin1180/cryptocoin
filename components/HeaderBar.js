@@ -45,6 +45,10 @@ const HeaderBar = ({right}) => {
                     <Image
                         source={icons.star}
                         resizeMode='contain'
+                        style={{
+                            width:30,
+                            height:30
+                        }}
                     />
                 </TouchableOpacity>
 
